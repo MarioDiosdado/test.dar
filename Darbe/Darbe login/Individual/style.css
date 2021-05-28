@@ -1,0 +1,121 @@
+.container {
+    max-width: 1800px;
+    width: 100%;
+}
+
+.background {
+    background-image: url('images/Background.png');
+    background-repeat: no-repeat;  
+    background-size: cover;
+}
+
+.logo {
+    padding-top: 50px;
+    padding-left: 10%;
+}
+
+.quote {
+   
+    font-family: 'Sintony', sans-serif;
+    font-style: normal;
+    color: #00AEFF;
+    font-size: 58px;
+    line-height: 76px;
+    padding-top: 30%;
+    padding-left: 17%;
+}
+
+.welcome {
+    width: 511px;
+}
+
+.quote p{
+    color: black;
+    font-size: 24px;
+    font-family: 'Sintony', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 31px;
+    padding: 0px;
+}
+
+.dar {
+    display: inline-block;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.be {
+    color: #FFC727;
+}
+
+.signHeader {
+    text-align: center;
+    padding-top: 20%;
+    padding-left: 10%;
+    font-family: 'Sintony', sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 38px;
+}
+
+.bubbles {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+}
+
+.entity {
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-bottom: 7%;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.individual {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+.buttons {
+    padding-top: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    cursor: pointer;
+}
+
+.filling {
+    padding-bottom: 300px;
+}
+
+.formStyle {
+    padding-left: 30%;
+    padding-right: 20%;
+}
+
+.nextButton {
+    padding-left: 35% !important;
+}
+
+.textLabel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+}

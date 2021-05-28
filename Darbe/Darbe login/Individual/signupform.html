@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/wmm7pzw.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Darbe - Login</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-5">
+                <div class="logo">
+                    <img class="img-fluid" src="images/Logo.svg" alt="logo">
+                </div>
+                <div class="quote">
+                    <div class="welcome">
+                        Welcome To <span class="dar">dar<span class="be">be</span></span>
+                    </div>
+                    <img class="img-responsive" src="images/line.png" alt="line">
+                    <p class="col-9">"The small acts of kindness, charity, and goodwill are the greatest indicator of
+                        character in a person."</p>
+                    <p>-Richard-Sebastian Alexander</p>
+                </div>
+            </div>
+            <div class="col-7 background">
+                <p class="signHeader">Sign Up</p>
+                <img class="bubbles" src="images/bubbles2.png" alt="bubbles">
+                <p class="entity">Select Your Entity</p>
+                <form class="formStyle needs-validation">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="firstName" class="textLabel">First Name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Jane">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="LastName" class="textLabel">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="Doe">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail4" class="textLabel">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="janedoe@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputPassword4" class="textLabel">Password</label>
+                        <input type="password" class="form-control" id="inputPassword4"
+                            placeholder="Enter a custom password">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity" class="textLabel">City</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Enter your city">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputZip" class="textLabel">Zip</label>
+                            <input type="text" class="form-control" id="inputZip" placeholder="Enter your zipcode">
+                        </div>
+                    </div>
+                    <label class="textLabel">Date of Birth</label>
+                    <div class="form-row">
+                        <div class="form-group col-md-4">
+                            <select class="custom-select mr-sm-2 textLabel" id="monthOption">
+                                <option class="textLabel" selected>Month</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <select class="custom-select mr-sm-2 textLabel" id="dayOption">
+                                <option class="textLabel" selected>Day</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <select class="custom-select mr-sm-2 textLabel" id="yearOption">
+                                <option class="textLabel" selected>Year</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label class="mr-sm-2" for="inlineFormCustomSelect" class="textLabel">Gender</label>
+                            <select class="custom-select mr-sm-2" id="gender">
+                                <option selected>Choose...</option>
+                                <option value="1">Male</option>
+                                <option value="2">Female</option>
+                                <option value="3">Non-binary</option>
+                                <option value="4">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <a href="main.html">
+                                <button type="button" class="btn btn-outline-primary btn-lg">Previous</button>
+                            </a>
+                        </div>
+                        <div class="form-group col-md-6 nextButton">
+                            <button type="button" class="btn btn-outline-primary btn-lg ">Next</button>
+                        </div>
+                    </div>
+                </form>
+                <p class="filling"> </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    $(document).ready(function () {
+        let yearDropdown = document.getElementById('yearOption');
+        let dayDropdown = document.getElementById('dayOption');
+        let monthDropdown = document.getElementById('monthOption');
+        let currentYear = new Date().getFullYear();
+        let earliestYear = 1930;
+        let days = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
+        let days2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+        let days3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28]
+        let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+
+        for (let i = 0; i < months.length; i++) {
+            let monthOption = document.createElement('option');
+            monthOption.text = months[i];
+            monthOption.value = i;
+            monthDropdown.add(monthOption);
+        }
+
+        $("#monthOption").change(function() {
+            $("#dayOption").find('option').not(':first').remove();
+        })
+
+        $("#dayOption").click(function () {
+            let monthValue = document.getElementById("monthOption");
+            let monthSelected = monthValue.value;
+            if (monthSelected == 0 || monthSelected == 2 || monthSelected == 4 || monthSelected == 6 || monthSelected == 8 || monthSelected == 9 || monthSelected == 11) {
+                for (let i = 0; i < days.length; i++) {
+                    let dayOption = document.createElement('option');
+                    dayOption.text = days[i];
+                    dayOption.value = days[i]
+                    dayDropdown.add(dayOption);
+                }
+            } else if (monthSelected == 1) {
+                for (let i = 0; i < days3.length; i++) {
+                    let dayOption = document.createElement('option');
+                    dayOption.text = days3[i];
+                    dayOption.value = days3[i]
+                    dayDropdown.add(dayOption);
+                }
+            } else {
+                for (let i = 0; i < days2.length; i++) {
+                    let dayOption = document.createElement('option');
+                    dayOption.text = days2[i];
+                    dayOption.value = days2[i]
+                    dayDropdown.add(dayOption);
+                }
+            }
+        })
+
+
+        function removeOptions(selectElement) {
+            var i, L = selectElement.options.length - 1;
+            for (i = L; i >= 0; i--) {
+                selectElement.remove(i);
+            }
+        }
+
+        while (currentYear >= earliestYear) {
+            let dateOption = document.createElement('option');
+            dateOption.text = currentYear;
+            dateOption.value = currentYear;
+            yearDropdown.add(dateOption);
+            currentYear -= 1;
+        }
+    })
+</script>
+
+</html>
