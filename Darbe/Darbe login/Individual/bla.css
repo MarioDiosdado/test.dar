@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+.bg {
+    height: 100%;
+    width: auto;
+    background-image: url('images/background2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1800px;
+    width: 100%;
+}
+
+.logo {
+    padding-top: 50px;
+    padding-left: 10%;
+}
+
+.signHeader {
+    text-align: center;
+    font-family: 'Sintony', sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 38px;
+}
+
+.bubbles {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .textLabel {
+    padding-top: 2%;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+}
