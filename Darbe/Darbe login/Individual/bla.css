@@ -43,3 +43,36 @@ body, html {
     font-family: 'Roboto';
     font-style: normal;
 }
+
+.buttonContainer {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+.btnC {
+    border-color: gray;
+    background-color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.form-check {
+    border-color: #00AEFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+}
+
+.btnP {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnP:focus {
+    outline: none;
+    box-shadow: none;
+  }
