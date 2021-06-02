@@ -41,7 +41,7 @@
             </div>
         </div>
         <br>
-        <form action="">
+        <form>
             <div class="row buttonContainer">
                 <div class="col-md-3">
                     <button class="btn btn-light btn-block btnC" type="submit">Animal Care</button>
@@ -145,12 +145,21 @@
                     </button>
                 </div>
                 <div class="col-6">
-                    <button type="submit" class="btn btn-primary btn-block buttonContainer">Next</button>
+                    <button type="submit" class="btn btn-block buttonContainer btnP">
+                        <img src="images/nextButton.png" alt="previous">
+                    </button>
                 </div>
             </div>
         </form>
     </div>
     </div>
 </body>
-
+<script>
+    $(document).ready(function() {
+    $('form').submit(function(e) {
+        e.preventDefault();
+        // or return false;
+    });
+});
+</script>
 </html>
