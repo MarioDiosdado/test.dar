@@ -52,19 +52,28 @@ body, html {
 }
 
 .btnC {
-    border-color: gray;
+    border-color: lightgray;
     background-color: white;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
+    border-width: 2px;
+    border-radius: 10px;
 }
 
 .btnC:hover {
     border-color: #00AEFF;
     border-width: 1px;
     color: #00AEFF;
+    border-width: 2px;
+    border-color: #00AEFF;
     background-color: white;
 }
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
 
 .form-check {
     border-color: #00AEFF;
@@ -126,4 +135,26 @@ body, html {
     background-color: #00AEFF !important;
     color: white;
     border-color: #00AEFF !important;
+  }
+
+  .btnC:active {
+      background-color: #00AEFF !important;
+      color: white !important;
+      border-color: #00AEFF;
+  }
+
+  .btnSelected {
+      background-color: #00AEFF;
+      border-color: #00AEFF;
+      color: white;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: bold;
+      border-width: 2px;
+      border-radius: 10px;
+  }
+
+  .btnSelected:hover {
+      background-color: #00AEFF;
+      color: white;
   }
