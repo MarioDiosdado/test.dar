@@ -19,7 +19,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="causeStyle.css">
+        <link rel="stylesheet" href="Style/causeStyle.css">
     <title>Select a Cause</title>
 </head>
 
@@ -41,7 +41,6 @@
             </div>
         </div>
         <br>
-        <!-- <form> -->
         <div class="row buttonContainer">
             <div class="col-md-3">
                 <button class="btn btn-light btn-block btnC">Animal Care</button>
@@ -141,33 +140,19 @@
         <div class="row buttonContainer">
             <div class="col-6">
                 <a href="signupform.html">
-                    <button type="submit" class="btn btn-outline-primary btn-lg buttonContainer btnPrev">Previous
-
-                    </button>
+                    <button type="submit"
+                        class="btn btn-outline-primary btn-lg buttonContainer btnPrev">Previous</button>
                 </a>
             </div>
             <div class="col-6">
-                <button type="submit" class="btn btn-outline-primary btn-lg buttonContainer btnNext">Next
-
-                </button>
+                <a href="availability.html">
+                    <button type="submit" class="btn btn-outline-primary btn-lg buttonContainer btnNext">Next</button>
+                </a>
             </div>
         </div>
-        <!-- </form> -->
     </div>
     </div>
 </body>
-<script>
-    $(document).ready(function () {
-        $('form').submit(function (e) {
-            e.preventDefault();
-            // or return false;
-        });
-    });
-
-    $('.btn-light').on('click', function () {
-        $(this).toggleClass('btnSelected');
-    });
-
-</script>
+<script type="text/javascript" src="JS/cause.js"></script>
 
 </html>
