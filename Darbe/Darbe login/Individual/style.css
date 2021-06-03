@@ -111,11 +111,52 @@
 }
 
 .nextButton {
-    padding-left: 35% !important;
+    padding-left: 23% !important;
 }
 
 .textLabel {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
+}
+
+.btn-outline-primary {
+    font-family: Roboto;
+    font-style: normal;
+    color: #00AEFF;
+    border-color: #00AEFF;
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+.btn-outline-primary:hover {
+    border-color: #00AEFF;
+    background-color: #00AEFF;
+}
+
+.btnNext {
+    color: white;
+    background-color: #00AEFF;
+    width: 100%;
+}
+
+.btnNext:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.btnNext:active:focus {
+    background-color: #00AEFF !important;
+    color: white;
+    border-color: #00AEFF !important;
+}
+
+.btnPrev:active:focus {
+    background-color: #00AEFF !important;
+    color: white;
+    border-color: #00AEFF !important;
+}
+
+.btnPrev {
+    width: 55%;
 }

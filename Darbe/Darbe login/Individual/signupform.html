@@ -104,14 +104,17 @@
                             </select>
                         </div>
                     </div>
+                    <br>
                     <div class="form-row">
                         <div class="form-group col-md-6">
                             <a href="main.html">
-                                <button type="button" class="btn btn-outline-primary btn-lg">Previous</button>
+                                <button type="button" class="btn btn-outline-primary btn-lg btnPrev">Previous</button>
                             </a>
                         </div>
                         <div class="form-group col-md-6 nextButton">
-                            <button type="button" class="btn btn-outline-primary btn-lg ">Next</button>
+                            <a href="cause.html">
+                                <button type="button" class="btn btn-outline-primary btn-lg btnNext">Next</button>
+                            </a>
                         </div>
                     </div>
                 </form>
@@ -140,7 +143,7 @@
             monthDropdown.add(monthOption);
         }
 
-        $("#monthOption").change(function() {
+        $("#monthOption").change(function () {
             $("#dayOption").find('option').not(':first').remove();
         })
 
