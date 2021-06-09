@@ -18,20 +18,33 @@ for (i=0;i<days.length;i++) {
           </div>
     </div>
     <div class="col-auto my-1">
-        <select class="custom-select am${i} mr-sm-2" id="inlineFormCustomSelect">
+        <select class="custom-select am${i} a${days[i]} mr-sm-2" id="inlineFormCustomSelect" disabled>
         </select>
     </div>
     <div class="col-1 transition">
         to
     </div>
     <div class="col-auto my-1">
-        <select class="custom-select pm${i}  mr-sm-2" id="inlineFormCustomSelect">
+        <select class="custom-select pm${i} p${days[i]}  mr-sm-2" id="inlineFormCustomSelect" disabled>
         </select>
     </div>
 </div>
 <br>
     `)
 }
+
+$('.form-check-input').on('click', function(){
+    let day = this.id;
+    if($('.a' + day).attr('disabled')) {
+        console.log('bla')
+        $('.a' + day).removeAttr('disabled');
+        $('.p' + day).removeAttr('disabled');
+    } else {
+        $('.a' + day).attr('disabled', true);
+        $('.p' + day).attr('disabled', true);
+    }
+
+})
 
 time();
 
