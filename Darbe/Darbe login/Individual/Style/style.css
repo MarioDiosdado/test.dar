@@ -79,6 +79,18 @@
     line-height: 23px;
 }
 
+.entityB {
+    padding-top: 15px;
+    padding-left: 10%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+
 .individual {
     display: block;
     margin-left: auto;
@@ -107,6 +119,11 @@
 
 .formStyle {
     padding-left: 30%;
+    padding-right: 20%;
+}
+
+.formStyleB {
+    padding-left: 33%;
     padding-right: 20%;
 }
 
@@ -159,4 +176,17 @@
 
 .btnPrev {
     width: 55%;
+}
+
+.custom-control-label {
+    padding-left: 5%;
+}
+
+.custom-select {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.transition {
+    padding-left: 5% !important;
 }
