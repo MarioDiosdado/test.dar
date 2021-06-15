@@ -61,3 +61,6 @@ function time() {
     }
 }
 
+function goBack() {
+    window.history.back();
+  }

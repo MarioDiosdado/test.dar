@@ -135,6 +135,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
+    margin-left: 0px !important;
 }
 
 .btn-outline-primary {
@@ -183,10 +184,13 @@
 }
 
 .custom-select {
-    margin-left: 10%;
     margin-right: 10%;
 }
 
 .transition {
     padding-left: 5% !important;
+}
+
+.bla {
+    margin: 0px !important;
 }

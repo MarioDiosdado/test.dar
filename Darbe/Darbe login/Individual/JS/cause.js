@@ -23,3 +23,7 @@ $("#gridCheck").change(function () {
         $(".btnC").removeClass('btnSelected');
     }
 });
+
+function goBack() {
+    window.history.back();
+  }
